@@ -1,0 +1,73 @@
+.showcase-weather-container {
+  position: relative;
+  width: 55vw;
+  height: 100vh;
+  /* border: 1px solid red; */
+}
+
+.showcase-weather {
+  width: -moz-fit-content;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.9375rem;
+}
+
+.top__city-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.top__city {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 11ch;
+  text-align: center;
+}
+
+.top__date {
+  /* white-space: nowrap; */
+  font-size: 0.9375rem;
+}
+
+.top__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9375rem;
+}
+
+.showcase-weather__bottom {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.bottom__details {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.details__icon {
+  /* color: #676e8a; */
+  /* color: #676e8ad8; */
+  /* color: #48506b88; */
+  color: #29345788;
+  /* color: #2f3a5c88; */
+  /* color: #131e4288; */
+  /* color: rgb(109, 109, 131); */
+  /* color: #48484aa1; */
+}
