@@ -1,0 +1,62 @@
+.hero-weather {
+  width: fit-content;
+  width: -moz-fit-content;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+section,
+.top__city-infos,
+.top__icon,
+.hero-weather__bottom,
+.bottom__details {
+  display: flex;
+}
+
+.top__city-infos,
+.top__icon,
+.bottom__details {
+  align-items: center;
+}
+
+.top__city-infos,
+.top__icon {
+  flex-direction: column;
+}
+
+section {
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0.9375rem;
+}
+
+.top__city-infos {
+  white-space: nowrap;
+}
+
+.top__city {
+  max-width: 11ch;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top__date,
+.top-icon {
+  font-size: 0.9375rem;
+}
+
+.hero-weather__bottom {
+  justify-content: center;
+  margin-top: 0.8rem;
+  gap: 2rem;
+}
+
+.details__icon {
+  color: #2f3a5c88;
+  margin-right: 0.3rem;
+}

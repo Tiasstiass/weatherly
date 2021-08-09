@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap');
+
 *,
 *::before,
 *::after {
@@ -21,22 +23,25 @@ body {
 
 /* HEADERS */
 h1 {
-  font-weight: 500;
-  font-size: 7.5rem;
+  /* font-size: 7.5rem; */
   line-height: 5.7rem;
+  font-size: 1.3rem;
+  margin-left: 5rem;
   letter-spacing: -1.5px;
+  font-family: 'Athiti', sans-serif;
 }
 
 h2 {
   font-weight: 400;
-  font-size: 3.45rem;
-  letter-spacing: -0.5px;
+  font-size: 8rem;
+  line-height: 6rem;
+  letter-spacing: -1.5px;
 }
 
 h3 {
   font-weight: 400;
-  font-size: 3rem;
-  letter-spacing: 0;
+  font-size: 3.45rem;
+  letter-spacing: -0.5px;
 }
 
 h4 {

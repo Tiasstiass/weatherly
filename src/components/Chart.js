@@ -3,16 +3,16 @@ import { Line } from 'react-chartjs-2';
 const styles = {
   container: {
     position: 'relative',
-    height: '15rem',
+    height: '12rem',
     width: '100%',
+    margin: '1.8rem 0',
   },
   chart: {
     height: '100%',
-    marginTop: '2rem',
   },
 };
 
-function Chart({ days, temp, min_temp }) {
+function Chart({ days, temp }) {
   const data = {
     labels: days,
     datasets: [
@@ -21,6 +21,7 @@ function Chart({ days, temp, min_temp }) {
         data: temp,
         backgroundColor: 'transparent',
         borderColor: '#e1beaa',
+        // borderColor: '#e1beaa',
         pointHoverBackgroundColor: 'white',
         tension: 0.3,
       },

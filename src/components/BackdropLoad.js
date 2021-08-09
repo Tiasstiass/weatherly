@@ -1,8 +1,8 @@
 import { Backdrop, CircularProgress } from '@material-ui/core';
 
-function BackdropLoad(open) {
+function BackdropLoad(props) {
   return (
-    <Backdrop open={open}>
+    <Backdrop open={props.open}>
       <CircularProgress color="primary" />
     </Backdrop>
   );

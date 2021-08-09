@@ -15,7 +15,7 @@ const StyledButton = withStyles({
 function SearchButton() {
   return (
     <StyledButton type="submit" variant="contained" color="primary">
-      <SearchIcon fontSize="large"></SearchIcon>
+      <SearchIcon fontSize="large" />
     </StyledButton>
   );
 }
