@@ -47,6 +47,7 @@ function Sidebar({ setCity, data, setData, isLoading, setIsLoading, locale }) {
         console.log(res);
         // create object with data received from API //
         let timezone = res.data.timezone;
+        // let slideStatus = false;
         let weatherData = [res.data.current, ...res.data.daily].map((obj) => ({
           day: Intl.DateTimeFormat(locale, {
             timeZone: timezone,
@@ -56,7 +57,6 @@ function Sidebar({ setCity, data, setData, isLoading, setIsLoading, locale }) {
           timezone: timezone,
           humidity: obj.humidity,
           main: obj.weather[0].main,
-          desc: obj.weather[0].description,
           icon: obj.weather[0].icon,
           temp: Math.round(obj.temp.day) || Math.round(obj.temp),
           min_temp: Math.round(obj.temp.min) || null,
@@ -64,9 +64,8 @@ function Sidebar({ setCity, data, setData, isLoading, setIsLoading, locale }) {
           sunrise: obj.sunrise * 1000,
           sunset: obj.sunset * 1000,
           wind_speed: Math.round(obj.wind_speed * 3.6),
-          visibility: obj.visibility,
           clouds: obj.clouds,
-          isSlid: false,
+          // isSlid: false,
         }));
         console.log(weatherData);
         setData(weatherData);
@@ -77,7 +76,6 @@ function Sidebar({ setCity, data, setData, isLoading, setIsLoading, locale }) {
         setIsError({ state: true, message: '' });
         setIsLoading(false);
         setData([]);
-        // return error;
       });
   };
 
@@ -111,7 +109,7 @@ function Sidebar({ setCity, data, setData, isLoading, setIsLoading, locale }) {
       setSelectedCity(value);
     }
     if (reason === 'clear') {
-      setSelectedCity('');
+      setSelectedCity({});
     }
   };
 

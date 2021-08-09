@@ -1,5 +1,11 @@
 import './HeroWeather.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faWind,
+  faTint,
+  faCloud,
+  faMoon,
+} from '@fortawesome/free-solid-svg-icons';
 
 function HeroWeather({ data, city, locale }) {
   const date = new Intl.DateTimeFormat(locale, {
@@ -35,23 +41,23 @@ function HeroWeather({ data, city, locale }) {
       </section>
 
       <section className="hero-weather__bottom">
-        <span className="bottom__details">
-          <FontAwesomeIcon className="details__icon" icon="wind" />
+        <span>
+          <FontAwesomeIcon className="details__icon" icon={faWind} />
           {data.wind_speed}
           <small>km/h</small>
         </span>
-        <span className="bottom__details">
-          <FontAwesomeIcon className="details__icon" icon="tint" />
+        <span>
+          <FontAwesomeIcon className="details__icon" icon={faTint} />
           {data.humidity}
           <small>%</small>
         </span>
-        <span className="bottom__details">
-          <FontAwesomeIcon className="details__icon" icon="cloud" />
+        <span>
+          <FontAwesomeIcon className="details__icon" icon={faCloud} />
           {data.clouds}
           <small>%</small>
         </span>
-        <span className="bottom__details">
-          <FontAwesomeIcon className="details__icon" icon="moon" />
+        <span>
+          <FontAwesomeIcon className="details__icon" icon={faMoon} />
           {getTime.format(data.sunset).toLowerCase()}
         </span>
       </section>

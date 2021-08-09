@@ -48,12 +48,6 @@ function Input(props) {
   return (
     <form onSubmit={props.handleSubmit}>
       <StyledAutocomplete
-        // open={
-        //   !props.error && props.input && props.input.length > 1 ? true : false
-        // }
-        // onOpen={() => {
-        //   props.onOpen({});
-        // }}
         loading={props.loading ?? true}
         loadingText="Searching..."
         noOptionsText={
@@ -66,7 +60,6 @@ function Input(props) {
           )
         }
         options={props.options}
-        // defaultValue={props.options[0]}
         autoHighlight={true}
         getOptionLabel={(option) =>
           `${option.city}, ${option.country}, (${option.state})`

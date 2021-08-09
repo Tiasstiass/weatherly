@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 *,
 *::before,
 *::after {
@@ -13,7 +13,7 @@ body {
   font-weight: normal;
   font-size: 1rem;
   letter-spacing: 0.5px;
-  background: url('./assets/bg-2.jpg');
+  background: url('./assets/bg.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: top;
@@ -28,7 +28,8 @@ h1 {
   font-size: 1.3rem;
   margin-left: 5rem;
   letter-spacing: -1.5px;
-  font-family: 'Athiti', sans-serif;
+  /* font-family: 'Athiti', sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
 
 h2 {
@@ -44,31 +45,12 @@ h3 {
   letter-spacing: -0.5px;
 }
 
-h4 {
-  font-weight: 400;
-  font-size: 2.125rem;
-  letter-spacing: 0.25px;
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
-h5 {
-  font-weight: 400;
-  font-size: 1.5rem;
-  letter-spacing: 0;
-}
-
-h6 {
-  font-weight: 500;
-  font-size: 1.25rem;
-  letter-spacing: 0.15px;
-}
-
-button {
-  font-weight: 500;
-  font-size: 0.875rem;
-  letter-spacing: 1.25px;
-  font-family: inherit;
-}
-
-ul {
-  list-style: none;
+a:hover {
+  text-decoration: underline;
 }

@@ -6,7 +6,8 @@
   top: 0;
   right: 0;
   background-color: rgba(51, 51, 51, 0.3);
-  backdrop-filter: blur(45px);
+  backdrop-filter: blur(7px);
+  /* backdrop-filter: blur(45px); */
 }
 
 .error-message,

@@ -12,8 +12,8 @@ const StyledCard = withStyles({
 const StyledCardContent = withStyles({
   root: {
     '&:last-child': {
-      padding: '1rem',
-      paddingBottom: '0',
+      // padding: '1rem',
+      // paddingBottom: '0',
     },
   },
 })(CardContent);
@@ -26,7 +26,7 @@ const StyledSlide = withStyles({
     top: '0',
     backgroundColor: 'rgba(255, 255, 255, 0.900)',
     padding: '1rem',
-    color: '#555',
+    color: '#636363',
     backdropFilter: 'blur(10px)',
   },
 })(Slide);

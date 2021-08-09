@@ -7,19 +7,18 @@
   transform: translateX(-50%);
   border-radius: 8px;
   backdrop-filter: blur(10px);
+  /* border: 1px solid red; */
 }
 
 section,
 .top__city-infos,
 .top__icon,
-.hero-weather__bottom,
-.bottom__details {
+.hero-weather__bottom {
   display: flex;
 }
 
 .top__city-infos,
-.top__icon,
-.bottom__details {
+.top__icon {
   align-items: center;
 }
 

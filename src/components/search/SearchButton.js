@@ -1,5 +1,5 @@
-import { Button } from '@material-ui/core';
 import { withStyles } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 
 const StyledButton = withStyles({
@@ -12,12 +12,10 @@ const StyledButton = withStyles({
   },
 })(Button);
 
-function SearchButton() {
+export default function SearchButton() {
   return (
     <StyledButton type="submit" variant="contained" color="primary">
       <SearchIcon fontSize="large" />
     </StyledButton>
   );
 }
-
-export default SearchButton;

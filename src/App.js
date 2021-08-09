@@ -2,35 +2,12 @@ import '@fontsource/roboto';
 import '@fontsource/roboto/500.css';
 import './App.css';
 import { useState } from 'react';
-import Sidebar from './views/sidebar/Sidebar';
 import Hero from './views/hero/Hero';
 import Logo from './components/Logo';
+import Credit from './components/Credit';
 import HeroWeather from './views/hero/heroWeather/HeroWeather';
+import Sidebar from './views/sidebar/Sidebar';
 import BackdropLoad from './components/BackdropLoad';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import {
-  faTint,
-  faCloud,
-  faWind,
-  faMoon,
-  faSun,
-  faChevronDown,
-  faThermometerEmpty,
-  faThermometerThreeQuarters,
-  faBinoculars,
-} from '@fortawesome/free-solid-svg-icons';
-
-library.add(
-  faTint,
-  faCloud,
-  faWind,
-  faMoon,
-  faSun,
-  faBinoculars,
-  faChevronDown,
-  faThermometerEmpty,
-  faThermometerThreeQuarters
-);
 
 function App() {
   const [city, setCity] = useState('');
@@ -49,6 +26,7 @@ function App() {
             <HeroWeather data={data[0]} city={city} locale={locale} />
           )
         )}
+        <Credit />
       </Hero>
 
       <Sidebar

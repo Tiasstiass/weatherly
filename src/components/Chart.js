@@ -21,7 +21,6 @@ function Chart({ days, temp }) {
         data: temp,
         backgroundColor: 'transparent',
         borderColor: '#e1beaa',
-        // borderColor: '#e1beaa',
         pointHoverBackgroundColor: 'white',
         tension: 0.3,
       },
