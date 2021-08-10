@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  /* color: #ffffff; */
 }
 
 /* //////////////////////// */
@@ -45,7 +44,6 @@ hr {
 .card-slide {
   display: grid;
   grid-template-columns: 1fr 50px;
-  /* grid-template-columns: 20% 80%; */
   justify-content: center;
   align-items: center;
   row-gap: 0.3rem;

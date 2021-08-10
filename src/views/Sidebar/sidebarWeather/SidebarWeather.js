@@ -34,14 +34,6 @@ function SidebarWeather({ data, locale }) {
 
   const [slide, setSlide] = useState([]);
 
-  // create slide state for each object
-  // useEffect(() => {
-  //   if (data.length > 0) {
-  //     const initState = data.map((obj) => obj.isSlid);
-  //     setSlide(initState);
-  //   }
-  // }, [data]);
-
   const _handleClick = (e) => {
     let i = e.currentTarget.dataset.id;
     const newState = [...slide];

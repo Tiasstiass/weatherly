@@ -42,13 +42,3 @@ h3 {
   font-size: 3.45rem;
   letter-spacing: -0.5px;
 }
-
-a,
-a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  text-decoration: underline;
-}
