@@ -4,7 +4,6 @@ import './App.css';
 import { useState } from 'react';
 import Hero from './views/hero/Hero';
 import Logo from './components/Logo';
-import Credit from './components/Credit';
 import HeroWeather from './views/hero/heroWeather/HeroWeather';
 import Sidebar from './views/sidebar/Sidebar';
 import BackdropLoad from './components/BackdropLoad';
@@ -26,7 +25,6 @@ function App() {
             <HeroWeather data={data[0]} city={city} locale={locale} />
           )
         )}
-        <Credit />
       </Hero>
 
       <Sidebar
