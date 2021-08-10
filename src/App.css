@@ -25,9 +25,9 @@ body {
 h1 {
   /* font-size: 7.5rem; */
   line-height: 5.7rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-left: 5rem;
-  letter-spacing: -1.5px;
+  letter-spacing: -1px;
   /* font-family: 'Athiti', sans-serif; */
   font-family: 'Poppins', sans-serif;
 }

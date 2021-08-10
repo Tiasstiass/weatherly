@@ -9,14 +9,14 @@ const StyledCard = withStyles({
   },
 })(Card);
 
-const StyledCardContent = withStyles({
-  root: {
-    '&:last-child': {
-      // padding: '1rem',
-      // paddingBottom: '0',
-    },
-  },
-})(CardContent);
+// const StyledCardContent = withStyles({
+//   root: {
+//     '&:last-child': {
+//       // padding: '1rem',
+//       // paddingBottom: '0',
+//     },
+//   },
+// })(CardContent);
 
 const StyledSlide = withStyles({
   root: {
@@ -34,7 +34,7 @@ const StyledSlide = withStyles({
 function WeatherCard({ index: i, slide, children, childrenSlide }) {
   return (
     <StyledCard>
-      <StyledCardContent>{children}</StyledCardContent>
+      <CardContent>{children}</CardContent>
       <StyledSlide
         direction="up"
         in={slide[i]}
@@ -42,7 +42,7 @@ function WeatherCard({ index: i, slide, children, childrenSlide }) {
         unmountOnExit
         children={childrenSlide}
       >
-        <StyledCardContent>{childrenSlide}</StyledCardContent>
+        <CardContent>{childrenSlide}</CardContent>
       </StyledSlide>
     </StyledCard>
   );
