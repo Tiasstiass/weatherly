@@ -44,10 +44,8 @@ function Sidebar({ setCity, data, setData, isLoading, setIsLoading, locale }) {
     setIsLoading(true);
     getWeatherData(lat, lon)
       .then((res) => {
-        console.log(res);
         // create object with data received from API //
         let timezone = res.data.timezone;
-        // let slideStatus = false;
         let weatherData = [res.data.current, ...res.data.daily].map((obj) => ({
           day: Intl.DateTimeFormat(locale, {
             timeZone: timezone,
@@ -65,9 +63,7 @@ function Sidebar({ setCity, data, setData, isLoading, setIsLoading, locale }) {
           sunset: obj.sunset * 1000,
           wind_speed: Math.round(obj.wind_speed * 3.6),
           clouds: obj.clouds,
-          // isSlid: false,
         }));
-        console.log(weatherData);
         setData(weatherData);
         setIsLoading(false);
         setIsError(false);

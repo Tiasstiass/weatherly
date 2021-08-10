@@ -9,15 +9,6 @@ const StyledCard = withStyles({
   },
 })(Card);
 
-// const StyledCardContent = withStyles({
-//   root: {
-//     '&:last-child': {
-//       // padding: '1rem',
-//       // paddingBottom: '0',
-//     },
-//   },
-// })(CardContent);
-
 const StyledSlide = withStyles({
   root: {
     height: '100%',

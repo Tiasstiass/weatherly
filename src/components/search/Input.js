@@ -3,7 +3,7 @@ import { TextField, withStyles } from '@material-ui/core';
 
 const StyledAutocomplete = withStyles({
   root: {
-    width: '25rem',
+    maxWidth: '25rem',
   },
   input: {
     color: '#fff',

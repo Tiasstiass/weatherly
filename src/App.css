@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 *,
 *::before,
 *::after {
@@ -23,12 +23,10 @@ body {
 
 /* HEADERS */
 h1 {
-  /* font-size: 7.5rem; */
-  line-height: 5.7rem;
   font-size: 1.1rem;
+  margin-top: 1.5rem;
   margin-left: 5rem;
   letter-spacing: -1px;
-  /* font-family: 'Athiti', sans-serif; */
   font-family: 'Poppins', sans-serif;
 }
 

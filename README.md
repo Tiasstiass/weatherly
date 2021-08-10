@@ -12,7 +12,7 @@ in brief.. **Another weather app!**
 - [Contribution](#contribution)
 - [Built with](#built-with)
 - [Features](#features)
-- [Todo & ideas](#todo-&-ideas)
+- [Todo & ideas](#todo--ideas)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 - [License](#license)
@@ -73,7 +73,7 @@ If you find a bug, please open an issue [here].
 
 - [OpenWeather API] - Weather data
 
-[openweather api]: https://openweathermap.org/api
+  [openweather api]: https://openweathermap.org/api
 
 - [Geoapify API] - for places autocompletion
 
