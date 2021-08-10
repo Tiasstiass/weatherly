@@ -6,21 +6,21 @@ Another weather app!
 
 ## Table of contents
 
-1. Motivations
-2. Screenshots
-3. Features
-4. Technologies Used
-5. Room for Improvement
-6. Acknowledgements
-7. License
-8. Contact
+1. [Motivations] (#motivations)
+2. [Screenshot] (#screenshot)
+3. [Features] (#features)
+4. [Technologies Used] (#technologies-used)
+5. [Room for Improvement] (#room-for-improvement)
+6. [Acknowledgements] (#acknowledgements)
+7. [License] {#license}
+8. [Contact] (#contact)
 
 # Motivations
 
 First personal React project. Had tons of fun coding it despite now being totally bald.
 Meant to be a starter project, something for the community to have fun with
 
-## Screenshots
+## Screenshot
 
 ## Features
 
@@ -28,7 +28,6 @@ Meant to be a starter project, something for the community to have fun with
 - 7-days weather
 - Display 7-days temperature on chart
 - Is beautiful
--
 - Other awesome features yet to be implemented
 
 ## Technologies Used
@@ -43,7 +42,7 @@ Meant to be a starter project, something for the community to have fun with
 
 ## Room for Improvement
 
-Open to any suggestions, off the top of my head
+Open to any suggestions, off the top of my head:
 
 - Responsiveness!!!
 - Different background according to the actual weather (sunny, rainy...)
@@ -52,9 +51,11 @@ Open to any suggestions, off the top of my head
 
 ## Acknowledgements
 
-Design greatly inspired by [Arthur K] (https://dribbble.com/thearthurk)
+Design greatly inspired by [Arthur K]
+[Arthur K]: https://dribbble.com/thearthurk
 
-##Contact
+## Contact
+
 Created by @Tiass - feel free to contact me!
 
 ## License
