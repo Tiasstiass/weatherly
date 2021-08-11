@@ -26,6 +26,10 @@ function SidebarWeather({ data, locale }) {
     timeZone: data[0]?.timezone,
     weekday: 'long',
   });
+  const today = Intl.DateTimeFormat(locale, {
+    timeZone: data[0]?.timezone,
+    day: '2-digit',
+  });
   const getTime = new Intl.DateTimeFormat(locale, {
     timeZone: data[0]?.timezone,
     hour: '2-digit',
@@ -52,7 +56,7 @@ function SidebarWeather({ data, locale }) {
           children={
             <div className="card">
               <div className="weather__list-day">
-                {day.format(new Date()) === day.format(obj.date)
+                {today.format(new Date()) === today.format(obj.date)
                   ? 'Today'
                   : day.format(obj.date)}
               </div>

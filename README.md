@@ -31,7 +31,9 @@ Coming soon!
 
 ## Demo
 
-Here is a live demo: coming soon!
+Here is a live [demo]
+
+[demo]: https://weatherly-react.netlify.app/
 
 ## Contribution
 
