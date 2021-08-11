@@ -107,6 +107,7 @@ If you find a bug, please open an issue [here].
 
 - Responsive / mobile support
 - Different backgrounds according to the actual weather (rainy, snowy...)
+- Previously searched places
 - Dark mode
 - Display more data on chart?
 
