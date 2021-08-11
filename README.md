@@ -27,7 +27,7 @@ Feel free to _contribute!_
 
 ## Screenshot
 
-<img width="800" alt="Screenshot copy" src="https://user-images.githubusercontent.com/74107413/128995485-ce64f59f-0cb9-4429-b934-02dff6d22c7e.png">
+<img width="1000" alt="Screenshot copy" src="https://user-images.githubusercontent.com/74107413/128995485-ce64f59f-0cb9-4429-b934-02dff6d22c7e.png">
 
 ## Demo
 
