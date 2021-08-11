@@ -6,7 +6,7 @@ in brief.. **Another weather app!**
 
 ## Table of contents
 
-- [General Info](#general-info)
+- [About the project](#about-the-project)
 - [Screenshot](#screenshot)
 - [Demo](#demo)
 - [Contribution](#contribution)
@@ -17,7 +17,7 @@ in brief.. **Another weather app!**
 - [Contact](#contact)
 - [License](#license)
 
-## About the project
+## 👨‍💻 About the project
 
 First personal React project. Had tons of fun coding it and experimenting. Bugs are expected, kindly open a new issue if you discover any.
 
@@ -110,17 +110,17 @@ If you find a bug, please open an issue [here].
 - Dark mode
 - Display more data on chart?
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
-Design greatly inspired by [Arthur K]
+Design greatly inspired by [Arthur K] 🙏
 
 [arthur k]: https://dribbble.com/thearthurk
 
-## 📞 Contact
+## Contact
 
 Created by Tiass - feel free to contact me!
 
-## 📝 License
+## License
 
 > You can check out the full license [here]
 
