@@ -24,8 +24,8 @@ body {
 /* HEADERS */
 h1 {
   font-size: 1.1rem;
-  margin-top: 1.5rem;
-  margin-left: 5rem;
+  padding-top: 1.5rem;
+  padding-left: 5rem;
   letter-spacing: -1px;
   font-family: 'Poppins', sans-serif;
 }
