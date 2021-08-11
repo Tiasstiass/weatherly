@@ -17,7 +17,7 @@ in brief.. **Another weather app!**
 - [Contact](#contact)
 - [License](#license)
 
-## General Information
+## About the project
 
 First personal React project. Had tons of fun coding it and experimenting. Bugs are expected, kindly open a new issue if you discover any.
 
@@ -35,7 +35,7 @@ Here is a live [demo]
 
 [demo]: https://weatherly-react.netlify.app/
 
-## Contribution
+## 💻 Contribution
 
 > Want to contribute? Follow these steps:
 
@@ -62,7 +62,7 @@ If you find a bug, please open an issue [here].
 
 [here]: https://github.com/Tiasstiass/weatherly/issues/new
 
-## Built with
+## 🚀 Built with
 
 - React via [create-react-app] - React boilerplate
 
@@ -92,7 +92,7 @@ If you find a bug, please open an issue [here].
 
 - [Font Awesome] - Icon library
 
-[font awesome]: https://fontawesome.com/
+  [font awesome]: https://fontawesome.com/
 
 ## Features
 
@@ -101,7 +101,7 @@ If you find a bug, please open an issue [here].
 - Temperatures on chart
 - Other _awesome_ features yet to be implemented
 
-## Todo & ideas
+## 🗒 Todo & ideas
 
 > Open to any suggestions.
 
@@ -110,17 +110,17 @@ If you find a bug, please open an issue [here].
 - Dark mode
 - Display more data on chart?
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 Design greatly inspired by [Arthur K]
 
 [arthur k]: https://dribbble.com/thearthurk
 
-## Contact
+## 📞 Contact
 
 Created by Tiass - feel free to contact me!
 
-## License
+## 📝 License
 
 > You can check out the full license [here]
 
