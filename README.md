@@ -23,11 +23,11 @@ First personal React project. Had tons of fun coding it and experimenting. Bugs 
 
 Meant to be a starter project, something for the community to have fun with, to experiment, to learn, to improve...
 
-Feel free to contribute!
+Feel free to _contribute!_
 
 ## Screenshot
 
-Coming soon!
+<img width="800" alt="Screenshot copy" src="https://user-images.githubusercontent.com/74107413/128995485-ce64f59f-0cb9-4429-b934-02dff6d22c7e.png">
 
 ## Demo
 
