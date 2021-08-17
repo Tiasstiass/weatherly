@@ -24,40 +24,41 @@ function HeroWeather({ data, city, locale }) {
 
   return (
     <div className="hero-weather">
-      <section className="hero-weather__top">
-        <h2>{data.temp}°</h2>
-        <div className="top__city-infos">
-          <h3 className="top__city">{city}</h3>
-          <p className="top__date">{date.format(data.date)}</p>
+      <section>
+        <h2 className="hero__temp">{data.temp}°</h2>
+        <div className="weather__city-date">
+          <h3 className="hero__city">{city}</h3>
+          <p className="hero__date">{date.format(data.date)}</p>
         </div>
-        <div className="top__icon">
+        <div className="hero__icon">
           <img
+            className="hero__img"
             src={`https://openweathermap.org/img/wn/${data.icon}@2x.png`}
             alt={'weather-icon'}
             width={'70px'}
           />
-          <span>{data.main}</span>
+          <span className="hero__description">{data.main}</span>
         </div>
       </section>
 
-      <section className="hero-weather__bottom">
+      <section className="hero__bottom">
         <span>
-          <FontAwesomeIcon className="details__icon" icon={faWind} />
+          <FontAwesomeIcon className="bottom_icons" icon={faWind} />
           {data.wind_speed}
           <small>km/h</small>
         </span>
         <span>
-          <FontAwesomeIcon className="details__icon" icon={faTint} />
+          <FontAwesomeIcon className="bottom_icons" icon={faTint} />
           {data.humidity}
           <small>%</small>
         </span>
         <span>
-          <FontAwesomeIcon className="details__icon" icon={faCloud} />
+          <FontAwesomeIcon className="bottom_icons" icon={faCloud} />
           {data.clouds}
           <small>%</small>
         </span>
         <span>
-          <FontAwesomeIcon className="details__icon" icon={faMoon} />
+          <FontAwesomeIcon className="bottom_icons" icon={faMoon} />
           {getTime.format(data.sunset).toLowerCase()}
         </span>
       </section>

@@ -1,3 +1,3 @@
 export default function Logo() {
-  return <h1>Weatherly.</h1>;
+  return <h1 className="logo">Weatherly.</h1>;
 }

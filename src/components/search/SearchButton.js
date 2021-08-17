@@ -1,21 +1,17 @@
-import { withStyles } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 
-const StyledButton = withStyles({
-  root: {
-    position: 'absolute',
-    top: '0',
-    right: '0',
-    padding: '1.5rem',
-    borderRadius: '0',
-  },
-})(Button);
-
+const styles = {
+  position: 'absolute',
+  top: '0',
+  right: '0',
+  padding: 'clamp(1.1em, 2vw, 1.5em)',
+  borderRadius: '0',
+};
 export default function SearchButton() {
   return (
-    <StyledButton type="submit" variant="contained" color="primary">
+    <Button style={styles} type="submit" variant="contained" color="primary">
       <SearchIcon fontSize="large" />
-    </StyledButton>
+    </Button>
   );
 }

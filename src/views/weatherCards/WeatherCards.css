@@ -1,0 +1,86 @@
+.grid-wrapper {
+  font-size: 0.9em;
+  min-width: 8.75em;
+  text-align: center;
+  margin-right: 1.25em;
+  background: #00000033;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.card__day {
+  padding: 0.3rem;
+  text-align: start;
+  font-size: 1.15em;
+  font-weight: 500;
+}
+
+.card__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__details > span {
+  margin-right: 0.5rem;
+  font-size: 0.9em;
+  color: #ffffff9d;
+}
+
+.card-icon {
+  margin-bottom: 0.5em;
+  width: clamp(60px, 10vw, 80px);
+}
+
+hr {
+  margin: 0.4em 0;
+  border: none;
+  border-radius: 50%;
+  border-bottom: 1px solid #ffffff21;
+}
+
+.sun-time {
+  font-size: 0.9em;
+}
+
+.temp {
+  text-align: center;
+  margin: 0.4em auto 0;
+  padding: 0.4em 1.5em;
+  font-size: 1.35em;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #aacde166;
+  box-shadow: 0 2px 5px #2b1d1d33;
+}
+
+.carousel-button-group {
+  width: 100%;
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+  color: rgba(255, 255, 255);
+}
+
+.right-arrow {
+  right: 0;
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.disable {
+  display: none;
+}

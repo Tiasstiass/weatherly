@@ -1,0 +1,9 @@
+.mobile-container {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  border-radius: 4px;
+  padding: 0 1rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

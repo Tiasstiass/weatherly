@@ -6,13 +6,13 @@ in brief.. **Another weather app!**
 
 ## Table of contents
 
-- [About the project](#about-the-project)
+- [About the project](#-about-the-project)
 - [Screenshot](#screenshot)
 - [Demo](#demo)
-- [Contribution](#contribution)
-- [Built with](#built-with)
+- [Contribution](#-contribution)
+- [Built with](#-built-with)
 - [Features](#features)
-- [Todo & ideas](#todo--ideas)
+- [Todo & ideas](#-todo--ideas)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 - [License](#license)
@@ -27,7 +27,7 @@ Feel free to _contribute!_
 
 ## Screenshot
 
-<img width="800" alt="Screenshot copy" src="https://user-images.githubusercontent.com/74107413/128995485-ce64f59f-0cb9-4429-b934-02dff6d22c7e.png">
+<img width="800" alt="screenshot" src="https://user-images.githubusercontent.com/74107413/129704391-7db4ab5f-f1fb-4966-8b29-9e06a304ccac.png">
 
 ## Demo
 
@@ -90,6 +90,10 @@ If you find a bug, please open an issue [here].
 
 [axios]: https://github.com/axios/axios
 
+- [React-multi-carousel] - Customizable React carousel
+
+[react-multi-carousel]: https://github.com/YIZHUANG/react-multi-carousel
+
 - [Font Awesome] - Icon library
 
   [font awesome]: https://fontawesome.com/
@@ -105,9 +109,9 @@ If you find a bug, please open an issue [here].
 
 > Open to any suggestions.
 
-- Responsive / mobile support
 - Different backgrounds according to the actual weather (rainy, snowy...)
 - Dark mode
+- Search history
 - Display more data on chart?
 
 ## Acknowledgements

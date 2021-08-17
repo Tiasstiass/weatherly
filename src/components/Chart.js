@@ -2,10 +2,8 @@ import { Line } from 'react-chartjs-2';
 
 const styles = {
   container: {
-    position: 'relative',
     height: '12rem',
-    width: '100%',
-    margin: '1.8rem 0',
+    margin: '2rem auto',
   },
   chart: {
     height: '100%',
@@ -38,7 +36,7 @@ function Chart({ days, temp }) {
             return `${value}°`;
           },
           precision: 0,
-          color: '#b6c0c6',
+          color: '#ffffffb3',
         },
         // Set min & max grid
         min: temp.reduce((a, b) => Math.min(a, b)) - 1,
@@ -57,7 +55,7 @@ function Chart({ days, temp }) {
     plugins: {
       legend: {
         labels: {
-          color: '#b6c0c6',
+          color: '#ffffffb3',
           boxWidth: 15,
           boxHeight: 0,
         },

@@ -8,6 +8,11 @@ const theme = createTheme({
     primary: { main: '#aacde1' },
     secondary: { main: '#e1beaa' },
   },
+  breakpoints: {
+    values: {
+      desktop: 1200,
+    },
+  },
 });
 
 ReactDOM.render(
