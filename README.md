@@ -110,7 +110,6 @@ If you find a bug, please open an issue [here].
 > Open to any suggestions.
 
 - Different backgrounds according to the actual weather (rainy, snowy...)
-- Previously searched places
 - Dark mode
 - Search history
 - Display more data on chart?
