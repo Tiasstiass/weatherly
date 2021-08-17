@@ -18,16 +18,13 @@ export default function Mobile(props) {
         (pos) => {
           const { latitude: lat, longitude: lon } = pos.coords;
           // get city name from data received //
-          getCity(lat, lon).then(
-            (res) =>
-              // update city state //
-              props.setSelectedCity({
-                city: res.data[0].name,
-              }),
+          getCity(lat, lon).then((res) => {
+            // update city state //
+            props.setDisplayedCity(res.data[0].name);
 
             // call API //
-            callApi(lat, lon)
-          );
+            callApi(lat, lon);
+          });
         },
         (error) => {
           props.setData([]);
@@ -77,6 +74,7 @@ export default function Mobile(props) {
     e.preventDefault();
     if (props.selectedCity.city) {
       callApi(props.selectedCity.lat, props.selectedCity.lon);
+      props.setDisplayedCity(props.selectedCity.city);
     }
   };
 
@@ -93,7 +91,6 @@ export default function Mobile(props) {
             weekday: 'long',
           }).format(obj.dt * 1000),
           date: obj.dt * 1000,
-          city: props.selectedCity.city,
           timezone: timezone,
           humidity: obj.humidity,
           main: obj.weather[0].main,
@@ -141,7 +138,7 @@ export default function Mobile(props) {
           props.data.length > 0 && (
             <HeroWeather
               data={props.data0}
-              city={props.data0.city}
+              city={props.displayedCity}
               locale={props.locale}
             />
           )

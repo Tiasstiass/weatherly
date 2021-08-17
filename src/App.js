@@ -9,6 +9,7 @@ import Desktop from 'views/desktop/Desktop';
 function App() {
   const [data, setData] = useState([]);
   const [list, setList] = useState([]);
+  const [displayedCity, setDisplayedCity] = useState('');
   const [selectedCity, setSelectedCity] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const [isInputLoading, setIsInputLoading] = useState(false);
@@ -32,6 +33,8 @@ function App() {
           input={input}
           list={list}
           setList={setList}
+          displayedCity={displayedCity}
+          setDisplayedCity={setDisplayedCity}
           selectedCity={selectedCity}
           setSelectedCity={setSelectedCity}
           isInputLoading={isInputLoading}
@@ -51,6 +54,8 @@ function App() {
           input={input}
           list={list}
           setList={setList}
+          displayedCity={displayedCity}
+          setDisplayedCity={setDisplayedCity}
           selectedCity={selectedCity}
           setSelectedCity={setSelectedCity}
           isInputLoading={isInputLoading}
